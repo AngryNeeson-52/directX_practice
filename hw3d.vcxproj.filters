@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXERR">
+      <UniqueIdentifier>{488f4474-06ea-4a4c-b61c-51afb6376382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{8bffd555-3fbf-4931-a443-ebaf60aaa33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Macros">
+      <UniqueIdentifier>{845c1041-d88c-4e24-9e59-790374ebc151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Drawable">
+      <UniqueIdentifier>{aa4caf7a-39cb-43a6-b999-9c406283ff42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Bindable">
+      <UniqueIdentifier>{d8f0142b-6ebe-4f85-ac8d-f402a807961d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bindable">
+      <UniqueIdentifier>{1d35709b-577b-4294-92b4-bfadd91d8a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Drawable">
+      <UniqueIdentifier>{676c31d5-0d51-47b5-bc6a-8543322b0cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Imgui">
+      <UniqueIdentifier>{69aa3b1d-b910-43fc-be6c-d132dafc2ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Imgui">
+      <UniqueIdentifier>{c4789bd4-3d8b-46f5-82a2-274968de2a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Common">
+      <UniqueIdentifier>{a116b2ce-3d0c-4247-864f-e5eee9f1aaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{8724ea18-6bc1-4b24-bc9e-06564c73dc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Jobber">
+      <UniqueIdentifier>{5fec47db-8109-4096-b359-8b8ca879972b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Jobber">
+      <UniqueIdentifier>{4b0c2ce4-6b98-4a8b-8bf1-210e90aa1d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Model">
+      <UniqueIdentifier>{0ce79814-cde9-4c45-ae43-dcdfd8edbc62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Model">
+      <UniqueIdentifier>{81760077-001b-4cec-a207-041816560007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Geometry">
+      <UniqueIdentifier>{8af5d8b4-5ec5-485b-9381-02757c980351}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsMessageMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SudalException.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SudalTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>DXERR</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiInfoManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Topology.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbuf.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>소스 파일\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>소스 파일\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>소스 파일\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidSphere.cpp">
+      <Filter>소스 파일\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlane.cpp">
+      <Filter>소스 파일\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCbufDoubleboi.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCube.cpp">
+      <Filter>소스 파일\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="SudalXM.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Blender.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="SudalUtil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCommander.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePreprocessor.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicConstant.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutCodex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>소스 파일\Jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Step.cpp">
+      <Filter>소스 파일\Jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>소스 파일\Jobber</Filter>
+    </ClCompile>
+    <ClCompile Include="NullPixelShader.cpp">
+      <Filter>소스 파일\Bindable</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelException.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsResource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowsMessageMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalWin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalException.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>DXERR</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiInfoManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsThrowMacros.h">
+      <Filter>헤더 파일\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsThrowMacros.h">
+      <Filter>헤더 파일\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="Bindable.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="BindableCommon.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffers.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Topology.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbuf.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>헤더 파일\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>헤더 파일\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>헤더 파일\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionalNoexcept.h">
+      <Filter>헤더 파일\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="BindableCodex.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlane.h">
+      <Filter>헤더 파일\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCbufDoubleboi.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCube.h">
+      <Filter>헤더 파일\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalXM.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapTwerker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Blender.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="SudalUtil.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCommander.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePreprocessor.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicConstant.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutCodex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffersEX.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCommander.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Step.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Stencil.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="NullPixelShader.h">
+      <Filter>헤더 파일\Bindable</Filter>
+    </ClInclude>
+    <ClInclude Include="TechniqueProbe.h">
+      <Filter>헤더 파일\Jobber</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelProbe.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelException.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>헤더 파일\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>헤더 파일\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedTriangleList.h">
+      <Filter>헤더 파일\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>헤더 파일\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidSphere.h">
+      <Filter>헤더 파일\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsResource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencil.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurPack.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hw3d.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sudal.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="sudalmark.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="cube.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>DXERR</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>DXERR</Filter>
+    </None>
+    <None Include="DXTrace.inl">
+      <Filter>DXERR</Filter>
+    </None>
+    <None Include="process.json">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ShaderOps.hlsl">
+      <Filter>Shader\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="LightVectorData.hlsl">
+      <Filter>Shader\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="Transform.hlsl">
+      <Filter>Shader\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="PointLight.hlsl">
+      <Filter>Shader\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifMskSpcNrm_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifMskSpcNrm_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifNrm_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifNrm_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifSpcNrm_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifSpcNrm_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifSpc_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDifSpc_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDif_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PhongDif_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Phong_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Phong_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Solid_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Solid_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Offset_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="xPhongDifNro.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Fullscreen_VS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Blur_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurOutline_PS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
